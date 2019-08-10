@@ -9,6 +9,8 @@ import AboutPart from '../components/AboutPart';
 import ServicesPart from '../components/ServicePart';
 import ReviewPart from '../components/ReviewPart';
 import PortfolioPart from '../components/PortfolioPart';
+import HighQuality from '../components/HighQuality';
+import BlogPart from '../components/BlogPart';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -24,6 +26,8 @@ export default class IndexPage extends React.Component {
         <ServicesPart />
         <ReviewPart />
         <PortfolioPart />
+        <HighQuality />
+        <BlogPart />
       </Layout>
     );
   }
