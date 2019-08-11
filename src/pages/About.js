@@ -10,7 +10,7 @@ export default class AboutPage extends React.Component {
     return (
       <Layout>
         <Seo
-          title="Home"
+          title="About"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />

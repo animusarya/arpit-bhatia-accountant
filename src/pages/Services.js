@@ -13,7 +13,7 @@ export default class ServicesPage extends React.Component {
     return (
       <Layout>
         <Seo
-          title="Home"
+          title="Service"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />

@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'gatsby';
 
 const Header = () => (
   <header className="main_menu home_menu">
@@ -33,7 +32,7 @@ const Header = () => (
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/about">
                     About
                   </a>
                 </li>
