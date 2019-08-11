@@ -4,7 +4,7 @@ import React from 'react';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
-import BreadCrumbServices from '../components/BreadCrumbServices';
+import BreadCrumb from '../components/BreadCrumb';
 import BestServices from '../components/BestServices';
 import ReviewPart from '../components/ReviewPart';
 
@@ -18,7 +18,7 @@ export default class ServicesPage extends React.Component {
           url={`${config.siteUrl}`}
         />
 
-        <BreadCrumbServices />
+        <BreadCrumb title="Our Service " subtitle="Service " />
         <BestServices />
         <ReviewPart />
       </Layout>

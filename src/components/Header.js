@@ -43,12 +43,12 @@ const Header = () => (
                   </a>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="/Services">
+                  <a className="nav-link" href="/services">
                     Services
                   </a>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/contact">
                     Contact
                   </a>
                 </li>

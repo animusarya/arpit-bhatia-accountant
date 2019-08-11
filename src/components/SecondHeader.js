@@ -61,38 +61,13 @@ const SecondHeader = () => (
                     </a>
                   </div>
                 </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Page
+                <li className="nav-item active">
+                  <a className="nav-link" href="/services">
+                    Services
                   </a>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <a className="dropdown-item" href="/">
-                      Project
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Project Details
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Services
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Elements
-                    </a>
-                  </div>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/contact">
                     Contact
                   </a>
                 </li>

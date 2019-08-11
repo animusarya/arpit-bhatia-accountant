@@ -1,16 +1,17 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 
-const BreadCrumbServices = () => (
+const BreadCrumb = ({ title, subtitle }) => (
   <section className="breadcrumb breadcrumb_bg">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="breadcrumb_iner">
             <div className="breadcrumb_iner_item">
-              <h2>Our Service</h2>
+              <h2>{title}</h2>
               <p>
-                Home<span>-</span>Service
+                Home<span>-</span>
+                {subtitle}
               </p>
             </div>
           </div>
@@ -20,4 +21,4 @@ const BreadCrumbServices = () => (
   </section>
 );
 
-export default BreadCrumbServices;
+export default BreadCrumb;
