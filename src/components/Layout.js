@@ -7,10 +7,11 @@ import config from '../utils/config';
 import Header from './Header';
 import ListFooterArea from './ListFooterArea';
 import Footer from './Footer';
+import SecondHeader from './SecondHeader';
 
 const Container = styled.div``;
 
-const IndexLayout = ({ children }) => (
+const IndexLayout = ({ children, isHeader }) => (
   <div>
     <Helmet>
       <title>{config.siteName}</title>
@@ -18,7 +19,7 @@ const IndexLayout = ({ children }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta description={config.description} />
     </Helmet>
-    <Header />
+    {isHeader ? <Header /> : <SecondHeader />}
     <Container>{children}</Container>
     <ListFooterArea />
     <Footer />

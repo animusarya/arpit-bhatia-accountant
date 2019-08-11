@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 
-const ServicesPart = () => (
+const BestServices = () => (
   <React.Fragment>
     <section className="service_part section_padding gray_bg">
       <div className="container">
@@ -113,4 +113,4 @@ const ServicesPart = () => (
   </React.Fragment>
 );
 
-export default ServicesPart;
+export default BestServices;

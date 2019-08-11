@@ -4,30 +4,23 @@ import React from 'react';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
-import BannerPart from '../components/BannerPart';
-import AboutPart from '../components/AboutPart';
+import BreadCrumbServices from '../components/BreadCrumbServices';
 import BestServices from '../components/BestServices';
 import ReviewPart from '../components/ReviewPart';
-import PortfolioPart from '../components/PortfolioPart';
-import HighQuality from '../components/HighQuality';
-import BlogPart from '../components/BlogPart';
 
-export default class IndexPage extends React.Component {
+export default class ServicesPage extends React.Component {
   render() {
     return (
-      <Layout isHeader>
+      <Layout>
         <Seo
           title="Home"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BannerPart />
-        <AboutPart />
+
+        <BreadCrumbServices />
         <BestServices />
         <ReviewPart />
-        <PortfolioPart />
-        <HighQuality />
-        <BlogPart />
       </Layout>
     );
   }
