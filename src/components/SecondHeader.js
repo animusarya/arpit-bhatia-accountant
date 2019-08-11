@@ -7,7 +7,7 @@ const SecondHeader = () => (
       <div className="row align-items-center">
         <div className="col-lg-12">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               <img src="img/logo.png" alt="logo" />
             </a>
             <button
@@ -28,12 +28,12 @@ const SecondHeader = () => (
             >
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html">
+                  <a className="nav-link" href="/about">
                     About
                   </a>
                 </li>
@@ -53,10 +53,10 @@ const SecondHeader = () => (
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    <a className="dropdown-item" href="blog.html">
+                    <a className="dropdown-item" href="/">
                       Blog
                     </a>
-                    <a className="dropdown-item" href="single-blog.html">
+                    <a className="dropdown-item" href="/">
                       Single blog
                     </a>
                   </div>
@@ -77,22 +77,22 @@ const SecondHeader = () => (
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    <a className="dropdown-item" href="project.html">
+                    <a className="dropdown-item" href="/">
                       Project
                     </a>
-                    <a className="dropdown-item" href="project_details.html">
+                    <a className="dropdown-item" href="/">
                       Project Details
                     </a>
-                    <a className="dropdown-item" href="service.html">
+                    <a className="dropdown-item" href="/">
                       Services
                     </a>
-                    <a className="dropdown-item" href="elements.html">
+                    <a className="dropdown-item" href="/">
                       Elements
                     </a>
                   </div>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="contact.html">
+                  <a className="nav-link" href="/">
                     Contact
                   </a>
                 </li>
