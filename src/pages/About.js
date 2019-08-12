@@ -4,6 +4,11 @@ import React from 'react';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
+import AboutUs from '../components/AboutUs';
+import AboutPart from '../components/AboutPart';
+import ReviewPart from '../components/ReviewPart';
+import HighQuality from '../components/HighQuality';
+
 
 export default class AboutPage extends React.Component {
   render() {
@@ -14,8 +19,12 @@ export default class AboutPage extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <h1>i am about</h1>
+        <AboutUs />
+        <AboutPart />
+        <ReviewPart />
+        <HighQuality />
       </Layout>
+
     );
   }
 }
