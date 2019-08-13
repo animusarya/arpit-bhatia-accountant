@@ -20,7 +20,6 @@ const Header = () => (
             >
               <span className="navbar-toggler-icon" />
             </button>
-
             <div
               className="collapse navbar-collapse main-menu-item justify-content-end"
               id="navbarSupportedContent"
@@ -32,7 +31,7 @@ const Header = () => (
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <a className="nav-link" href="/About">
                     About
                   </a>
                 </li>

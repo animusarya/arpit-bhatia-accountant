@@ -7,7 +7,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import Form from '../components/Form';
-import Directions from '../components/Directions';
+import MapContainer from '../components/MapContainer';
 
 export default class ContactPage extends React.Component {
   render() {
@@ -20,7 +20,7 @@ export default class ContactPage extends React.Component {
         />
 
         <BreadCrumb title="Contact Us" subtitle="Contact" />
-        <Directions />
+        <MapContainer />
         <Form />
       </Layout>
     );
