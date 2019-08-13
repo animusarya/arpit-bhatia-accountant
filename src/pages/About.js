@@ -14,7 +14,7 @@ export default class AboutPage extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <h1>i am about</h1>
+     <h1>ofpihffiodhf</h1>
       </Layout>
     );
   }

@@ -26,8 +26,6 @@ const Form = () => (
                     id="message"
                     cols="30"
                     rows="9"
-                    onFocus="this.placeholder = ''"
-                    onBlur="this.placeholder = 'Enter Message'"
                     placeholder="Enter Message"
                   />
                 </div>
@@ -39,8 +37,6 @@ const Form = () => (
                     name="name"
                     id="name"
                     type="text"
-                    onFocus="this.placeholder = ''"
-                    onBlur="this.placeholder = 'Enter your name'"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -52,8 +48,6 @@ const Form = () => (
                     name="email"
                     id="email"
                     type="email"
-                    onFocus="this.placeholder = ''"
-                    onBlur="this.placeholder = 'Enter email address'"
                     placeholder="Enter email address"
                   />
                 </div>
@@ -65,8 +59,6 @@ const Form = () => (
                     name="subject"
                     id="subject"
                     type="text"
-                    onFocus="this.placeholder = ''"
-                    onBlur="this.placeholder = 'Enter Subject'"
                     placeholder="Enter Subject"
                   />
                 </div>

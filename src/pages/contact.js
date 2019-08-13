@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 
@@ -6,7 +7,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import Form from '../components/Form';
-
+import Directions from '../components/Directions';
 
 export default class ContactPage extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class ContactPage extends React.Component {
         />
 
         <BreadCrumb title="Contact Us" subtitle="Contact" />
+        <Directions />
         <Form />
       </Layout>
     );
