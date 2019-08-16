@@ -27,10 +27,10 @@ const BestServices = () => (
               </span>
               <h4>Income Tax</h4>
               <p>
-                An income tax return is a form where taxpayers declare that
-                their taxable income, deductions, and tax payments. This
-                procedure of filing income tax returns is referred to as income
-                tax filing.
+                An annual government form is where citizens proclaim that their
+                assessable salary, reasonings, and duty installments. This
+                method of recording annual assessment forms is alluded to as
+                salary assessment recording.
               </p>
               <a href="/income-tax" className="btn_3">
                 Learn More <i className="ti-arrow-right" />
@@ -44,10 +44,10 @@ const BestServices = () => (
               </span>
               <h4>GST</h4>
               <p>
-                the GST payment process and GST payment schedule are of key
-                importance to any business in order to remain compliant.make GST
-                payment online in time, and continue their business in a hassle
-                free manner.
+                the GST installment procedure and GST installment timetable are
+                of key significance to any business so as to remain
+                compliant.make GST installment online in time, and proceed with
+                their business in a problem free way.
               </p>
               <a href="/gst" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
@@ -68,8 +68,9 @@ const BestServices = () => (
               </span>
               <h4>Digital Sinature</h4>
               <p>
-                To create digital signature and email program creates a one-way
-                - hash of the electronic data to be signed.
+                To make computerized mark and email program makes a single
+                direction - hash of the electronic information to be agreed
+                upon.
               </p>
               <a href="/digital-signature" className="btn_3">
                 Learn More <i className="ti-arrow-right" />
@@ -83,8 +84,8 @@ const BestServices = () => (
               </span>
               <h4>Health Insurance</h4>
               <p>
-                Buy health insurance policy for yourself and your family because
-                medical care is expensive.
+                Purchase medical coverage approach for yourself and your family
+                on the grounds that restorative consideration is costly.
               </p>
               <a href="/health-insurance" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
@@ -98,8 +99,8 @@ const BestServices = () => (
               </span>
               <h4>PAN Card</h4>
               <p>
-                PAN is mandatory for financial transactions such as receiving
-                taxable salary or professional fees.
+                PAN is required for monetary exchanges, for example, accepting
+                assessable pay or expert charges.
               </p>
               <a href="/pan-card" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />

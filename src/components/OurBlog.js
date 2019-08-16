@@ -15,8 +15,8 @@ const OurBlog = () => (
             </div>
             <div className="blog_details">
               <h2>
-                Every business has to file various returns with appropriate
-                government agencies. SPA are filing these returns.
+                Each business needs to record different comes back with fitting
+                government organizations. SPA are recording these profits.
               </h2>
               <ul className="blog-info-link mt-3 mb-4">
                 <li>
@@ -31,13 +31,10 @@ const OurBlog = () => (
                 </li>
               </ul>
               <p className="excert">
-                Income Tax Return is a proof that you have paid income tax.
-                It contains details about your annual income and
-                tax you have paid. Every year, any person who earn taxable
-                income have to file Income Tax Return (ITR). Filing ITR will
-                help you in getting a refund in case you pay more tax than what
-                you are required to pay. If you fail to file your ITR, you might
-                have to pay penalty or face legal consequences.
+                Annual Tax Return is a proof that you have covered pay
+                regulatory expense. It contains insights concerning your yearly
+                pay and charge you have paid. Consistently, any individual who
+                win assessable pay need to document Income Tax Return (ITR).
               </p>
               <p>
                 Online filing of returns within due date as applicable time to
@@ -48,26 +45,22 @@ const OurBlog = () => (
               </p>
               <div className="quote-wrapper">
                 <div className="quotes">
-                  Creating a favourable financial history – Online filing of the
-                  income tax returns actually creates a history of your
-                  financial records with the tax department in a much faster.
-                   This history is favoured by a lot of
-                  organisations, be it financial or otherwise, which you might
-                  have a business relationship with in the future.
+                  According ITR will help you in getting a discount on the off
+                  chance that you cover more regulatory obligation than what you
+                  are required to pay. In the event that you neglect to document
+                  your ITR, you may need to pay punishment or face lawful
+                  results.
                 </div>
               </div>
               <p>
-                Tax is a central element to the revenue generation system of the
-                Indian government. Among the multitude of taxes present in the
-                system, income tax is the one that deals with the taxation of
-                the earning of every individual, firm or organisation in a
-                financial year. The earning or income could be in the form of
-                regular wages, interest, dividends, capital gains or any other
-                profits.
+                According ITR will help you in getting a discount on the off
+                chance that you cover more regulatory obligation than what you
+                are required to pay. In the event that you neglect to document
+                your ITR, you may need to pay punishment or face lawful results.
               </p>
               <p>
                 Visit the website of the Income Tax Department of India and
-                choose the option for e-filing.
+                choose the option.
               </p>
             </div>
           </div>
@@ -84,24 +77,24 @@ const OurBlog = () => (
                 </li>
                 <li>
                   <a href="#" className="d-flex">
-                    <p>Travel news</p>
+                    <p>Income Tax</p>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex">
-                    <p>Modern technology</p>
+                    <p>Health Insurance</p>
                     <p>(03)</p>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex">
-                    <p>Product</p>
+                    <p>Pan Card</p>
                     <p>(11)</p>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex">
-                    <p>Inspiration</p>
+                    <p>Digital Signature</p>
                     <p>(21)</p>
                   </a>
                 </li>
