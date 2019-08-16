@@ -1,21 +1,26 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
+
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
-import OurBlog from '../components/OurBlog';
+import BestServices from '../components/BestServices';
+import ReviewPart from '../components/ReviewPart';
 
-export default class Service3Page extends React.Component {
+export default class GSTPage extends React.Component {
   render() {
     return (
       <Layout>
         <Seo
-          title="About"
+          title="Service"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Our Blog" subtitle="Our Blog" />
-        <OurBlog />
+
+        <BreadCrumb title="GST" subtitle="Service " />
+        <BestServices />
+        <ReviewPart />
       </Layout>
     );
   }

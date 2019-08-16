@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'gatsby';
 
+// import { Link } from 'gatsby';
 const SecondHeader = () => (
   <header className="main_menu">
     <div className="container">
@@ -33,7 +33,7 @@ const SecondHeader = () => (
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/About">
+                  <a className="nav-link" href="/about">
                     About
                   </a>
                 </li>

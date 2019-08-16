@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import OurBlog from '../components/OurBlog';
 
-export default class Service5Page extends React.Component {
+export default class Services6Page extends React.Component {
   render() {
     return (
       <Layout>

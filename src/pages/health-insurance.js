@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import OurBlog from '../components/OurBlog';
 
-export default class Service4Page extends React.Component {
+export default class HealthInsurancePage extends React.Component {
   render() {
     return (
       <Layout>
@@ -14,7 +14,7 @@ export default class Service4Page extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Our Blog" subtitle="Our Blog" />
+        <BreadCrumb title="Health Insurance" subtitle="Insurance" />
         <OurBlog />
       </Layout>
     );

@@ -14,7 +14,7 @@ export default class DigitalSignaturePage extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Our Blog" subtitle="Our Blog" />
+        <BreadCrumb title="Digital Signature" subtitle="Blog" />
         <OurBlog />
       </Layout>
     );
