@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
-// import { Link } from 'gatsby';
 const SecondHeader = () => (
   <header className="main_menu">
     <div className="container">
@@ -28,29 +28,57 @@ const SecondHeader = () => (
             >
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="/">
+                  <Link className="nav-link" href="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <Link className="nav-link" href="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <Link className="nav-link" href="/about">
                     Blog
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item active">
-                  <a className="nav-link" href="/services">
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle"
+                    to="/services"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
                     Services
-                  </a>
+                  </Link>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <Link className="dropdown-item" to="/IncomeTax">
+                      Income Tax
+                    </Link>
+                    <Link className="dropdown-item" to="/gst">
+                      GST
+                    </Link>
+                    <Link className="dropdown-item" to="/DigitalSignature">
+                      Digital Signature
+                    </Link>
+                    <Link className="dropdown-item" to="project_details.html">
+                      Pan Card
+                    </Link>
+                    <Link className="dropdown-item" to="/HealthInsurance">
+                      Health Insurance
+                    </Link>
+                  </div>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" href="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

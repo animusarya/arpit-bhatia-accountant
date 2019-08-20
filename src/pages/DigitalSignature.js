@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import OurBlog from '../components/OurBlog';
 
-export default class IncomeTaxPage extends React.Component {
+export default class DigitalSignature extends React.Component {
   render() {
     return (
       <Layout>
@@ -14,7 +14,7 @@ export default class IncomeTaxPage extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Income Tax" subtitle="Tax" />
+        <BreadCrumb title="Digital Signature" subtitle="Blog" />
         <OurBlog />
       </Layout>
     );

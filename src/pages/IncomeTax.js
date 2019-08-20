@@ -5,16 +5,16 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import OurBlog from '../components/OurBlog';
 
-export default class PanCardPage extends React.Component {
+export default class IncomeTax extends React.Component {
   render() {
     return (
       <Layout>
         <Seo
-          title="About"
+          title="income-tax"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Pan Card" subtitle="Blog" />
+        <BreadCrumb title="Income Tax" subtitle="Tax" />
         <OurBlog />
       </Layout>
     );

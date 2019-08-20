@@ -13,7 +13,7 @@ export default class GSTPage extends React.Component {
     return (
       <Layout>
         <Seo
-          title="Service"
+          title="GST Services"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Header = () => (
   <header className="main_menu home_menu">
@@ -6,9 +7,9 @@ const Header = () => (
       <div className="row align-items-center">
         <div className="col-lg-8 col-xl-8">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               <img src="img/logo.png" alt="logo" />
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,29 +27,57 @@ const Header = () => (
             >
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="/">
+                  <Link className="nav-link" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <Link className="nav-link" to="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link" href="/">
+                  <Link className="nav-link" to="/">
                     Blog
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item active">
-                  <a className="nav-link" href="/services">
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle"
+                    to="/services"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
                     Services
-                  </a>
+                  </Link>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <Link className="dropdown-item" to="/IncomeTax">
+                      Income Tax
+                    </Link>
+                    <Link className="dropdown-item" to="/gst">
+                      GST
+                    </Link>
+                    <Link className="dropdown-item" to="/DigitalSignature">
+                      Digital Signature
+                    </Link>
+                    <Link className="dropdown-item" to="project_details.html">
+                      Pan Card
+                    </Link>
+                    <Link className="dropdown-item" to="/HealthInsurance">
+                      Health Insurance
+                    </Link>
+                  </div>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

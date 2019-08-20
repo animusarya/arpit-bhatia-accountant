@@ -5,16 +5,16 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import OurBlog from '../components/OurBlog';
 
-export default class DigitalSignaturePage extends React.Component {
+export default class PanCard extends React.Component {
   render() {
     return (
       <Layout>
         <Seo
-          title="About"
+          title="pan-card"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
-        <BreadCrumb title="Digital Signature" subtitle="Blog" />
+        <BreadCrumb title="Pan Card" subtitle="Blog" />
         <OurBlog />
       </Layout>
     );
