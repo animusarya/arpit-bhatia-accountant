@@ -5,8 +5,7 @@ import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
-import BestServices from '../components/BestServices';
-import ReviewPart from '../components/ReviewPart';
+import OurBlog from '../components/OurBlog';
 
 export default class GSTPage extends React.Component {
   render() {
@@ -19,8 +18,7 @@ export default class GSTPage extends React.Component {
         />
 
         <BreadCrumb title="GST" subtitle="Service " />
-        <BestServices />
-        <ReviewPart />
+        <OurBlog />
       </Layout>
     );
   }

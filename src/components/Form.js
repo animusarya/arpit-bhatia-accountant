@@ -10,9 +10,7 @@ const Form = () => (
   <section className="contact-section section_padding">
     <div className="container">
       <div className="d-none d-sm-block mb-5 pb-4">
-        <Mapbox id="map">
-          <MapContainer />
-        </Mapbox>
+  
       </div>
       <div className="row">
         <div className="col-12">
