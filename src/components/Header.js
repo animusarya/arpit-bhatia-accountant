@@ -32,26 +32,26 @@ const Header = () => (
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/about">
+                  <Link className="nav-link" to="/About">
                     About
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link" to="/Blog">
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
-                    to="/services"
+                    to="#"
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Services
+                    services
                   </Link>
                   <div
                     className="dropdown-menu"
@@ -60,13 +60,13 @@ const Header = () => (
                     <Link className="dropdown-item" to="/IncomeTax">
                       Income Tax
                     </Link>
-                    <Link className="dropdown-item" to="/gst">
+                    <Link className="dropdown-item" to="/GSTPage">
                       GST
                     </Link>
                     <Link className="dropdown-item" to="/DigitalSignature">
                       Digital Signature
                     </Link>
-                    <Link className="dropdown-item" to="project_details.html">
+                    <Link className="dropdown-item" to="PanCard">
                       Pan Card
                     </Link>
                     <Link className="dropdown-item" to="/HealthInsurance">

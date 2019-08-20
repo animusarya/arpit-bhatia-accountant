@@ -28,24 +28,24 @@ const SecondHeader = () => (
             >
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <Link className="nav-link" href="/">
+                  <Link className="nav-link" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/about">
+                  <Link className="nav-link" to="/About">
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/about">
+                  <Link className="nav-link" to="/">
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
-                    to="/services"
+                    to="#"
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -61,13 +61,13 @@ const SecondHeader = () => (
                     <Link className="dropdown-item" to="/IncomeTax">
                       Income Tax
                     </Link>
-                    <Link className="dropdown-item" to="/gst">
+                    <Link className="dropdown-item" to="/GST">
                       GST
                     </Link>
                     <Link className="dropdown-item" to="/DigitalSignature">
                       Digital Signature
                     </Link>
-                    <Link className="dropdown-item" to="project_details.html">
+                    <Link className="dropdown-item" to="PanCard">
                       Pan Card
                     </Link>
                     <Link className="dropdown-item" to="/HealthInsurance">
@@ -76,7 +76,7 @@ const SecondHeader = () => (
                   </div>
                 </li>
                 <li className="nav-item active">
-                  <Link className="nav-link" href="/contact">
+                  <Link className="nav-link" to="/contact">
                     Contact
                   </Link>
                 </li>

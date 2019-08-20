@@ -1,5 +1,5 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
+import { Link } from 'gatsby';
 
 const BestServices = () => (
   <React.Fragment>
@@ -15,9 +15,9 @@ const BestServices = () => (
                 Male bring land. Dominion over can not yielding. His moveth
                 under of dry brought him is. Multiply which firmament deep make.
               </p>
-              <a href="#" className="btn_2">
+              <Link to="/IncomeTax" className="btn_2">
                 Load More
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6 col-xl-4">
@@ -32,9 +32,9 @@ const BestServices = () => (
                 method of recording annual assessment forms is alluded to as
                 salary assessment recording.
               </p>
-              <a href="/income-tax" className="btn_3">
+              <Link to="/IncomeTax" className="btn_3">
                 Learn More <i className="ti-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6 col-xl-4">
@@ -49,9 +49,9 @@ const BestServices = () => (
                 compliant.make GST installment online in time, and proceed with
                 their business in a problem free way.
               </p>
-              <a href="/gst" className="btn_3 service_btn">
+              <Link to="/GST" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -72,9 +72,9 @@ const BestServices = () => (
                 direction - hash of the electronic information to be agreed
                 upon.
               </p>
-              <a href="/digital-signature" className="btn_3">
+              <Link to="/DigitalSignature" className="btn_3">
                 Learn More <i className="ti-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6 col-xl-4">
@@ -87,9 +87,9 @@ const BestServices = () => (
                 Purchase medical coverage approach for yourself and your family
                 on the grounds that restorative consideration is costly.
               </p>
-              <a href="/health-insurance" className="btn_3 service_btn">
+              <Link to="/HealthInsurance" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6 col-xl-4">
@@ -102,9 +102,9 @@ const BestServices = () => (
                 PAN is required for monetary exchanges, for example, accepting
                 assessable pay or expert charges.
               </p>
-              <a href="/pan-card" className="btn_3 service_btn">
+              <Link to="PanCard" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,3 @@
-/* eslint-disable import/no-named-as-default */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable prettier/prettier */
 import React from 'react';
 
 import config from '../utils/config';

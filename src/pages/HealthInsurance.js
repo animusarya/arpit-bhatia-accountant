@@ -10,7 +10,7 @@ export default class HealthInsurance extends React.Component {
     return (
       <Layout>
         <Seo
-          title="About"
+          title="HealthInsurance"
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
