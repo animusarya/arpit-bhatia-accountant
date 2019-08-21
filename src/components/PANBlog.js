@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InsuranceBlog = () => (
+const PANBlog = () => (
   <section className="blog_area single-post-area section_padding">
     <div className="container">
       <div className="row">
@@ -15,8 +15,8 @@ const InsuranceBlog = () => (
             </div>
             <div className="blog_details">
               <h2>
-                Purchase medical coverage approach for yourself and your family
-                on the grounds that restorative consideration is costly.
+                PAN is required for monetary exchanges, for example, accepting
+                assessable pay or expert charges.
               </h2>
               <ul className="blog-info-link mt-3 mb-4">
                 <li>
@@ -31,29 +31,25 @@ const InsuranceBlog = () => (
                 </li>
               </ul>
               <p className="excert">
-                health insurance is imperative to the general public since
-                individuals get sick, mishaps and crises do emerge and the
-                medical clinics are expected to analyze, treat and oversee
-                various sorts of illnesses and infections.
+                PAN means Permanent Account Number.It is a ten-digit
+                alpha-numeric number issued by the income tax department.The
+                card is required for all individuals who file tax returns
               </p>
               <p>
-                Health insurance is imperative to the general public since
-                individuals get sick, mishaps and crises do emerge
+                Permanent Account Number is provided by Income tax department to
+                every income tax payer.
               </p>
               <div className="quote-wrapper">
                 <div className="quotes">
-                  Purchasing a health insurance strategy for yourself and your
-                  family is significant in light of the fact that medical care
-                  is costly
+                  The PAN Card can only be allotted once a person turns 18 years
+                  of age.
                 </div>
               </div>
               <p>
-                All this can be avoided by just paying a small annual premium
-                which would lessen your stress in case of medical emergencies.
+                An individual can also use his PAN card as a proof of identity
+                and proof of age.
               </p>
-              <p>
-                Visit the our website and choose the Health Insurance option.
-              </p>
+              <p>Visit the our website and choose the Pan Card option.</p>
             </div>
           </div>
         </div>
@@ -164,4 +160,4 @@ const InsuranceBlog = () => (
     </div>
   </section>
 );
-export default InsuranceBlog;
+export default PANBlog;

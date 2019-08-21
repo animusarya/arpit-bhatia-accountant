@@ -46,8 +46,8 @@ const BestServices = () => (
               <p>
                 the GST installment procedure and GST installment timetable are
                 of key significance to any business so as to remain
-                compliant.make GST installment online in time, and proceed with
-                their business in a problem free way.
+                compliant.make GST installment online in time,proceed with their
+                business in a problem free way.
               </p>
               <Link to="/gst" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />

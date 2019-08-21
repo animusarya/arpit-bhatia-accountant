@@ -3,7 +3,7 @@ import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
-import OurBlog from '../components/OurBlog';
+import PANBlog from '../components/PANBlog';
 
 export default class PanCard extends React.Component {
   render() {
@@ -15,7 +15,7 @@ export default class PanCard extends React.Component {
           url={`${config.siteUrl}`}
         />
         <BreadCrumb title="Pan Card" subtitle="Blog" />
-        <OurBlog />
+        <PANBlog />
       </Layout>
     );
   }
