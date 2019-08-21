@@ -49,7 +49,7 @@ const BestServices = () => (
                 compliant.make GST installment online in time, and proceed with
                 their business in a problem free way.
               </p>
-              <Link to="/GST" className="btn_3 service_btn">
+              <Link to="/gst" className="btn_3 service_btn">
                 Learn More <i className="ti-arrow-right" />
               </Link>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OurBlog = () => (
+const GstBlog = () => (
   <section className="blog_area single-post-area section_padding">
     <div className="container">
       <div className="row">
@@ -15,8 +15,8 @@ const OurBlog = () => (
             </div>
             <div className="blog_details">
               <h2>
-              Filing your tax can be beneficial even you fall into the non-assessable level of pay.
-
+                Make GST portion online in time, and continue with their
+                business in an issue free manner.
               </h2>
               <ul className="blog-info-link mt-3 mb-4">
                 <li>
@@ -31,37 +31,29 @@ const OurBlog = () => (
                 </li>
               </ul>
               <p className="excert">
-                Annual Tax Return is a proof that you have covered pay
-                regulatory expense. It contains insights concerning your yearly
-                pay and charge you have paid. Consistently, any individual who
-                win assessable pay need to document Income Tax Return (ITR).
+                GST will coordinate most expenses into a solitary one, that will
+                be connected to the deal and buy of merchandise and ventures,
+                with findings for charges paid at past store network stages.
               </p>
               <p>
-                Online filing of returns within due date as applicable time to
-                time or every financial year, and being a month or two in
-                advance from due date in filing the income tax returns actually
-                ensures one encounters lesser traffic and the entire process
-                goes much smoother.
+                GST targets wiping out the difficulties of expense organization
+                and consistence. GST targets guaranteeing a bound together
+                charge for the whole country. GST targets disposing of the
+                unfortunate challenge among the states due to expenses and
+                incomes.
               </p>
               <div className="quote-wrapper">
                 <div className="quotes">
-                  According ITR will help you in getting a discount on the off
-                  chance that you cover more regulatory obligation than what you
-                  are required to pay. In the event that you neglect to document
-                  your ITR, you may need to pay punishment or face lawful
-                  results.
+                  GST plans to supplant all aberrant collected on products and
+                  ventures by the Indian Central and State governments.
                 </div>
               </div>
               <p>
-                According ITR will help you in getting a discount on the off
-                chance that you cover more regulatory obligation than what you
-                are required to pay. In the event that you neglect to document
-                your ITR, you may need to pay punishment or face lawful results.
+                GST installment timetable are of key significance to any
+                business so as to remain compliant.make GST installment online
+                in time, and proceed with their business in a problem free way.
               </p>
-              <p>
-                Visit the website of the Income Tax Department of India and
-                choose the option.
-              </p>
+              <p>Visit the website and choose the option.</p>
             </div>
           </div>
         </div>
@@ -172,4 +164,4 @@ const OurBlog = () => (
     </div>
   </section>
 );
-export default OurBlog;
+export default GstBlog;
