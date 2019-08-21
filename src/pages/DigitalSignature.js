@@ -3,7 +3,7 @@ import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
-import OurBlog from '../components/OurBlog';
+import SignatureBlog from '../components/SignatureBlog';
 
 export default class DigitalSignature extends React.Component {
   render() {
@@ -15,7 +15,7 @@ export default class DigitalSignature extends React.Component {
           url={`${config.siteUrl}`}
         />
         <BreadCrumb title="Digital Signature" subtitle="Blog" />
-        <OurBlog />
+        <SignatureBlog />
       </Layout>
     );
   }
