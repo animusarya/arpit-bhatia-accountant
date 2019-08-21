@@ -33,7 +33,7 @@ const SecondHeader = () => (
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/About">
+                  <Link className="nav-link" to="/about">
                     About
                   </Link>
                 </li>
@@ -61,7 +61,7 @@ const SecondHeader = () => (
                     <Link className="dropdown-item" to="/IncomeTax">
                       Income Tax
                     </Link>
-                    <Link className="dropdown-item" to="/GST">
+                    <Link className="dropdown-item" to="/gst">
                       GST
                     </Link>
                     <Link className="dropdown-item" to="/DigitalSignature">

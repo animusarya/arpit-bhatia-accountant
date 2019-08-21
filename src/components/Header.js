@@ -32,12 +32,12 @@ const Header = () => (
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/About">
+                  <Link className="nav-link" to="/about">
                     About
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link" to="/Blog">
+                  <Link className="nav-link" to="/">
                     Blog
                   </Link>
                 </li>
@@ -60,7 +60,7 @@ const Header = () => (
                     <Link className="dropdown-item" to="/IncomeTax">
                       Income Tax
                     </Link>
-                    <Link className="dropdown-item" to="/GSTPage">
+                    <Link className="dropdown-item" to="/gst">
                       GST
                     </Link>
                     <Link className="dropdown-item" to="/DigitalSignature">
