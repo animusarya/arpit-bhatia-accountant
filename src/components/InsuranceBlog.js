@@ -31,26 +31,28 @@ const InsuranceBlog = () => (
                 </li>
               </ul>
               <p className="excert">
-                Utilizing digital signatures over paper and ink signature
-                accompanies numerous focal points. Don't waste time sending your
-                contracts in the mail.
+                health insurance is imperative to the general public since
+                individuals get sick, mishaps and crises do emerge and the
+                medical clinics are expected to analyze, treat and oversee
+                various sorts of illnesses and infections.
               </p>
               <p>
-                Sending records carefully is quicker and more
-                cost-effective.Never be without a significant archive again.
+                A significant number of individuals' yearnings and wants can't
+                be met without longer, more advantageous, glad lives.
               </p>
               <div className="quote-wrapper">
                 <div className="quotes">
-                  digital signatures are particularly significant for electronic
-                  business and are a key segment of most validation plans.
+                  Purchasing a health insurance strategy for yourself and your
+                  family is significant in light of the fact that medical care
+                  is costly
                 </div>
               </div>
               <p>
-                digital signatures are particularly significant for electronic
-                business and are a key segment of most validation plans.
+                All this can be avoided by just paying a small annual premium
+                which would lessen your stress in case of medical emergencies.
               </p>
               <p>
-                Visit the our website and choose the Digital Signature option.
+                Visit the our website and choose the Health Insurance option.
               </p>
             </div>
           </div>
