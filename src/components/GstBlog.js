@@ -53,7 +53,7 @@ const GstBlog = () => (
                 business so as to remain compliant.make GST installment online
                 in time, and proceed with their business in a problem free way.
               </p>
-              <p>Visit the website and choose the option.</p>
+              <p>Visit the our website and choose the option.</p>
             </div>
           </div>
         </div>
