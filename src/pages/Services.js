@@ -3,7 +3,7 @@ import React from 'react';
 import Seo from '../components/Seo';
 import config from '../utils/config';
 import BreadCrumb from '../components/BreadCrumb';
-import OurBlog from '../components/OurBlog';
+// import OurBlog from '../components/OurBlog';
 import Layout from '../components/Layout';
 
 export default class Services extends React.Component {
@@ -16,7 +16,7 @@ export default class Services extends React.Component {
           url={`${config.siteUrl}`}
         />
         <BreadCrumb title="Our Blog" subtitle="Our Blog" />
-        <OurBlog />
+        {/* <OurBlog /> */}
       </Layout>
     );
   }
