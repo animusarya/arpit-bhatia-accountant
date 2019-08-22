@@ -9,9 +9,7 @@ const Mapbox = styled.div`
 const Form = () => (
   <section className="contact-section section_padding">
     <div className="container">
-      <div className="d-none d-sm-block mb-5 pb-4">
-  
-      </div>
+      <div className="d-none d-sm-block mb-5 pb-4" />
       <div className="row">
         <div className="col-12">
           <h2 className="contact-title">Get in Touch</h2>
@@ -84,7 +82,7 @@ const Form = () => (
               <i className="ti-home" />
             </span>
             <div className="media-body">
-              <h3>Buttonwood, California.</h3>
+              <h3>Buttonwood, Jalandhar.</h3>
               <p>Rosemead, CA 91770</p>
             </div>
           </div>
@@ -93,7 +91,7 @@ const Form = () => (
               <i className="ti-tablet" />
             </span>
             <div className="media-body">
-              <h3>00 (440) 9865 562</h3>
+              <h3>Mobile No. : 1231212</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
@@ -102,7 +100,7 @@ const Form = () => (
               <i className="ti-email" />
             </span>
             <div className="media-body">
-              <h3>support@colorlib.com</h3>
+              <h3>Email : @gmail.com</h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>
