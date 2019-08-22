@@ -6,7 +6,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import AboutPart from '../components/AboutPart';
-import ReviewPart from '../components/ReviewPart';
+import CustomerReview from '../components/CustomerReview';
 import HighQuality from '../components/HighQuality';
 
 export default class AboutPage extends React.Component {
@@ -20,7 +20,7 @@ export default class AboutPage extends React.Component {
         />
         <BreadCrumb title="About Us" subtitle="About" />
         <AboutPart />
-        <ReviewPart />
+        <CustomerReview />
         <HighQuality />
       </Layout>
     );
