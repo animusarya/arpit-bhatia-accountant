@@ -13,13 +13,11 @@ const HighQuality = () => (
         <div className="col-md-6 offset-xl-1 col-xl-6">
           <div className="about_text">
             <h2>We Providing high quality adviser service</h2>
-            <h4>First Abundantly night you are sea great fifth year</h4>
+            <h4>Our team provide excellent service to client</h4>
             <p>
-              Lights fly above bearing brought abundantly whose. Without one may
-              i seed void wels great face god were deep be first. Unto for third
-              be in moveth. Bring land bearing un abundantly firmament appear
-              whales them years. Lights fly above bearing brought bold
-              abundantly whose without one may i seed.{' '}
+              Our team comprises of competent professionals with extensive
+              experience and knowledge . Our expertise helps us to service our
+              clients to their satisfaction.
             </p>
             <a href="#" className="btn_2">
               read more

@@ -7,7 +7,7 @@ const ReviewPart = () => (
         <div className="col-xl-6">
           <div className="section_tittle text-center">
             <h2>Customer Are Saying</h2>
-            <p>Winged hath had face creepeth abundantly so shall </p>
+            <p>customers are fully satisfy our company. </p>
           </div>
         </div>
       </div>
@@ -24,14 +24,13 @@ const ReviewPart = () => (
                       className="image"
                     />
                     <p>
-                      Own midst. Behold sea created male he together of That
-                      Said fourth deep abundantly have light night beginning
-                      rule darkness seed darkness which land saying moveth.
-                      Fifth shall wont signs, can seasons green days gathered
-                      great
+                      Our dedicated team comprises of competent professionals
+                      with extensive knowledge and experience. Our
+                      professionalism and expertise helps us to service our
+                      clients to their satisfaction.
                     </p>
-                    <h3>Daniel E Gilcritst</h3>
-                    <h5>Manager, Vision</h5>
+                    <h3>Customer Name</h3>
+                    <h5>Jalandhar, Punjab </h5>
                   </div>
                 </div>
               </div>

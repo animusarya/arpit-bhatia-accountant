@@ -12,6 +12,7 @@ import PortfolioPart from '../components/PortfolioPart';
 import HighQuality from '../components/HighQuality';
 import BlogPart from '../components/BlogPart';
 
+
 export default class IndexPage extends React.Component {
   render() {
     return (

@@ -12,17 +12,13 @@ const AboutPart = () => (
         <div className="col-md-6 col-lg-6 offset-xl-1 col-xl-6">
           <div className="about_text">
             <h2>We Have 24 Year Expereince in consulting</h2>
-            <h4>First Abundantly night you are sea great fifth year</h4>
+            <h4>Our Company provide excellent service to our clients</h4>
             <p>
-              Lights fly above bearing brought abundantly whose. Without one may
-              i seed void wels great face god were deep be first. Unto for third
-              be in moveth. Bring land bearing un abundantly firmament appear
-              whales them years. Lights fly above bearing brought bold
-              abundantly whose without one may i seed.{' '}
+              If you are looking for a blend of personal service, you have come
+              to Our Office. We offer a services for Income Tax Return, GST,
+              Finance, Health Insurance, Digital Sgnature. Our rates are less.
+              Please call us for Our Office.
             </p>
-            <a href="#" className="btn_2">
-              read more
-            </a>
           </div>
         </div>
       </div>

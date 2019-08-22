@@ -8,11 +8,12 @@ const BannerPart = () => (
           <div className="banner_text">
             <div className="banner_text_iner">
               <h1>
-                Lead from <br /> Front in Business <br /> Innovation.
+                Welcome to <br /> Your Company , <br /> Chandigarh
               </h1>
               <p>
-                Male bring land dominion over can yielding his moveth under of
-                depend brought him is. Multiply which firmament deep make.
+                Our Comapany provides outstanding service to our clients.We
+                offer a services for Income Tax Return, GST ,Finance,Helth
+                Insurance,PAN Card.{' '}
               </p>
               <a href="#" className="btn_1">
                 learn more
