@@ -5,13 +5,12 @@ import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BannerPart from '../components/BannerPart';
-import AboutPart from '../components/AboutPart';
+import Expereince from '../components/Expereince';
 import BestServices from '../components/BestServices';
 import ReviewPart from '../components/ReviewPart';
 import PortfolioPart from '../components/PortfolioPart';
 import HighQuality from '../components/HighQuality';
 import BlogPart from '../components/BlogPart';
-
 
 export default class IndexPage extends React.Component {
   render() {
@@ -23,7 +22,7 @@ export default class IndexPage extends React.Component {
           url={`${config.siteUrl}`}
         />
         <BannerPart />
-        <AboutPart />
+        <Expereince />
         <BestServices />
         <ReviewPart />
         <PortfolioPart />

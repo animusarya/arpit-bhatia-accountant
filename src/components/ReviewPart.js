@@ -24,10 +24,9 @@ const ReviewPart = () => (
                       className="image"
                     />
                     <p>
-                      Our dedicated team comprises of competent professionals
-                      with extensive knowledge and experience. Our
-                      professionalism and expertise helps us to service our
-                      clients to their satisfaction.
+                      This Company Staff has the deep knowledge of Indian
+                      taxation system,GST. His advice has helped us plan the
+                      future.
                     </p>
                     <h3>Customer Name</h3>
                     <h5>Jalandhar, Punjab </h5>

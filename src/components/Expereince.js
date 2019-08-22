@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutPart = () => (
+const Expereince = () => (
   <section className="about_part">
     <div className="container">
       <div className="row align-items-center justify-content-end">
@@ -11,12 +11,13 @@ const AboutPart = () => (
         </div>
         <div className="col-md-6 col-lg-6 offset-xl-1 col-xl-6">
           <div className="about_text">
-            <h2>Make GST,Income Tax return portion online.</h2>
+            <h2>We Have 24 Year Expereince in this Business.</h2>
             <h4>Our Company provide excellent service to our clients</h4>
             <p>
-              You have come to Our Office. We offer a services for Income Tax
-              Return, GST, Finance, Health Insurance, Digital Sgnature. Our
-              rates are less. Please call us for Our Office.
+              If you are looking for a blend of personal service, you have come
+              to Our Office. We offer a services for Income Tax Return, GST,
+              Finance, Health Insurance, Digital Sgnature. Our rates are less.
+              Please call us for Our Office.
             </p>
           </div>
         </div>
@@ -34,4 +35,4 @@ const AboutPart = () => (
   </section>
 );
 
-export default AboutPart;
+export default Expereince;
