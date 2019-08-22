@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import AboutPart from '../components/AboutPart';
 import CustomerReview from '../components/CustomerReview';
-import HighQuality from '../components/HighQuality';
+import AdviserService from '../components/AdviserService';
 
 export default class AboutPage extends React.Component {
   render() {
@@ -21,7 +21,7 @@ export default class AboutPage extends React.Component {
         <BreadCrumb title="About Us" subtitle="About" />
         <AboutPart />
         <CustomerReview />
-        <HighQuality />
+        <AdviserService />
       </Layout>
     );
   }

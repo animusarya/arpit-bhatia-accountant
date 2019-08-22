@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 
-const HighQuality = () => (
+const AdviserService = () => (
   <section className="about_part our_service_part padding_top">
     <div className="container">
       <div className="row align-items-center justify-content-end">
@@ -12,8 +12,8 @@ const HighQuality = () => (
         </div>
         <div className="col-md-6 offset-xl-1 col-xl-6">
           <div className="about_text">
-            <h2>Make GST ,Income Tax Service portion online in time </h2>
-            <h4>continue with their business in an issue free manner.</h4>
+            <h2>We Providing high quality adviser service</h2>
+            <h4>Our team provide excellent service to client</h4>
             <p>
               Our team comprises of competent professionals with extensive
               experience and knowledge . Our expertise helps us to service our
@@ -38,4 +38,4 @@ const HighQuality = () => (
   </section>
 );
 
-export default HighQuality;
+export default AdviserService;
