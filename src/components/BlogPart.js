@@ -8,7 +8,8 @@ const BlogPart = () => (
           <div className="section_tittle text-center">
             <h2>Update From Blog</h2>
             <p>
-              Winged hath had face creepeth abundantly so shall fire apperar{' '}
+              Services provide Income Tax Return, GST ,Finance,Helth
+              Insurance,PAN Card.
             </p>
           </div>
         </div>
@@ -23,11 +24,11 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Technology</a> |{' '}
+                <a href="blog.html">Income Tax</a> |{' '}
                 <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
-                    Be there bring void give good from stars
+                    Online filing of returns within two days.
                   </h5>
                 </a>
                 <ul>
@@ -35,7 +36,8 @@ const BlogPart = () => (
                     <span className="ti-comments" />2 Comments
                   </li>
                   <li>
-                    <span className="ti-heart" />0 Like
+                    <span className="ti-heart" />
+                    10 Like
                   </li>
                 </ul>
               </div>
@@ -51,11 +53,11 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Technology</a> |{' '}
+                <a href="blog.html">Income Tax</a> |{' '}
                 <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
-                    He waters likeness their land set female for{' '}
+                    Online filing of returns within two days.
                   </h5>
                 </a>
                 <ul>
@@ -79,11 +81,10 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Technology</a> |{' '}
-                <span> March 30, 2019</span>
+                <a href="blog.html">GST</a> | <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
-                    Be there bring void give good from stars
+                    Click This Blog and get information.
                   </h5>
                 </a>
                 <ul>
@@ -107,10 +108,10 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Technology</a> |<span> March 30, 2019</span>
+                <a href="blog.html">Insurance</a> |<span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
-                    Third lights they're over moved days above
+                    Get full information of Insurance
                   </h5>
                 </a>
                 <ul>
@@ -118,7 +119,7 @@ const BlogPart = () => (
                     <span className="ti-comments" />2 Comments
                   </li>
                   <li>
-                    <span className="ti-heart" />0 Like
+                    <span className="ti-heart" />7 Like
                   </li>
                 </ul>
               </div>
