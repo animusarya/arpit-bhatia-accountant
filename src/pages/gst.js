@@ -6,6 +6,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import Category from '../components/Category';
+import image from '../images/GST.jpg';
 
 export default class GSTPage extends React.Component {
   render() {
@@ -24,11 +25,7 @@ export default class GSTPage extends React.Component {
               <div className="col-lg-8 posts-list">
                 <div className="single-post">
                   <div className="feature-img">
-                    <img
-                      className="img-fluid"
-                      src="img/blog/single_blog_1.png"
-                      alt=""
-                    />
+                    <img className="img-fluid" src={image} alt="" />
                   </div>
                   <div className="blog_details">
                     <h2>
