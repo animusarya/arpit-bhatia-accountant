@@ -22,11 +22,7 @@ export default class PanCard extends React.Component {
               <div className="col-lg-8 posts-list">
                 <div className="single-post">
                   <div className="feature-img">
-                    <img
-                      className="img-fluid"
-                      src={image}
-                      alt=""
-                    />
+                    <img className="img-fluid" src={image} alt="" />
                   </div>
                   <div className="blog_details">
                     <h2>
