@@ -24,7 +24,7 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Income Tax</a> |{' '}
+                <a href="/IncomeTax">Income Tax</a> |{' '}
                 <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
@@ -53,7 +53,7 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Income Tax</a> |{' '}
+                <a href="/IncomeTax">Income Tax</a> |{' '}
                 <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
@@ -81,7 +81,7 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">GST</a> | <span> March 30, 2019</span>
+                <a href="/Gst">GST</a> | <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
                     Click This Blog and get information.
@@ -108,7 +108,8 @@ const BlogPart = () => (
                 alt="blog"
               />
               <div className="card-body">
-                <a href="blog.html">Insurance</a> |<span> March 30, 2019</span>
+                <a href="HealthInsurance">Insurance</a> |
+                <span> March 30, 2019</span>
                 <a href="blog.html">
                   <h5 className="card-title">
                     Get full information of Insurance
