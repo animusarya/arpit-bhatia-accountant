@@ -24,7 +24,7 @@ const PortfolioPart = () => (
               />
               >
               <div className="card-body">
-                <a href="project_details.html">
+                <a href="/">
                   <h5 className="card-title">Startup Project</h5>
                 </a>
                 <p className="card-text">
@@ -40,7 +40,7 @@ const PortfolioPart = () => (
               />
               >
               <div className="card-body">
-                <a href="project_details.html">
+                <a href="/">
                   <h5 className="card-title">Startup Project</h5>
                 </a>
                 <p className="card-text">
@@ -55,7 +55,7 @@ const PortfolioPart = () => (
                 alt="..."
               />
               <div className="card-body">
-                <a href="project_details.html">
+                <a href="/">
                   <h5 className="card-title">Startup Project</h5>
                 </a>
                 <p className="card-text">
@@ -70,7 +70,7 @@ const PortfolioPart = () => (
                 alt="..."
               />
               <div className="card-body">
-                <a href="project_details.html">
+                <a href="/">
                   <h5 className="card-title">Startup Project</h5>
                 </a>
                 <p className="card-text">

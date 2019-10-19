@@ -4,6 +4,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import BreadCrumb from '../components/BreadCrumb';
 import Category from '../components/Category';
+import image from '../images/accountant.jpg';
 
 export default class IncomeTax extends React.Component {
   render() {
@@ -24,7 +25,7 @@ export default class IncomeTax extends React.Component {
                   <div className="feature-img">
                     <img
                       className="img-fluid"
-                      src="img/blog/single_blog_1.png"
+                      src={image}
                       alt=""
                     />
                   </div>

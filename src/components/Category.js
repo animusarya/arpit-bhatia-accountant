@@ -1,4 +1,10 @@
 import React from 'react';
+import image1 from '../images/account.jpg';
+import image2 from '../images/GST.jpg';
+import image3 from '../images/accountant3.jpg';
+import image4 from '../images/accountant.jpg';
+import image5 from '../images/sign.jpg';
+import image6 from '../images/insurrance.jpg';
 
 const Category = () => (
   <div className="col-lg-4">
@@ -44,32 +50,32 @@ const Category = () => (
         <ul className="instagram_row flex-wrap">
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_5.png" alt="" />
+              <img className="img-fluid" src={image1} alt="" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_6.png" alt="" />
+              <img className="img-fluid" src={image2} alt="" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_7.png" alt="" />
+              <img className="img-fluid" src={image3} alt="" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_8.png" alt="" />
+              <img className="img-fluid" src={image4} alt="" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_9.png" alt="" />
+              <img className="img-fluid" src={image5} alt="" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="img-fluid" src="img/post/post_10.png" alt="" />
+              <img className="img-fluid" src={image6} alt="" />
             </a>
           </li>
         </ul>
