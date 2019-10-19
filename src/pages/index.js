@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import BannerPart from '../components/BannerPart';
 import Expereince from '../components/Expereince';
 import BestServices from '../components/BestServices';
-import ReviewPart from '../components/ReviewPart';
+import CustomerReview from '../components/CustomerReview';
 import PortfolioPart from '../components/PortfolioPart';
 import HighQuality from '../components/HighQuality';
 import BlogPart from '../components/BlogPart';
@@ -24,7 +24,7 @@ export default class IndexPage extends React.Component {
         <BannerPart />
         <Expereince />
         <BestServices />
-        <ReviewPart />
+        <CustomerReview />
         <PortfolioPart />
         <HighQuality />
         <BlogPart />

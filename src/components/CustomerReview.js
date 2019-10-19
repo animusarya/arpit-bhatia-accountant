@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomerSlider from './CustomerSlider';
 
 const CustomerReview = () => (
   <section className="review_part padding_top">
@@ -11,32 +12,7 @@ const CustomerReview = () => (
           </div>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-lg-6 col-xl-5">
-          <div className="slider-nav-thumbnails">
-            <div className="slider-thumbnails">
-              <div className="slider">
-                <div data-index="">
-                  <div className="client_review_text text-center">
-                    <img
-                      src="img/client/client_1.png"
-                      alt="slideimg"
-                      className="image"
-                    />
-                    <p>
-                      This Company Staff has the deep knowledge of Indian
-                      taxation system,GST. His advice has helped us plan the
-                      future.
-                    </p>
-                    <h3>Customer Name</h3>
-                    <h5>Jalandhar, Punjab </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CustomerSlider />
       <div className="hero-app-7 custom-animation4">
         <img src="img/animate_icon/icon_4.png" alt="" />
       </div>
