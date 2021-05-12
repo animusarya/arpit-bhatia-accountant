@@ -41,7 +41,7 @@
     "react-slick": "^0.25.2",
     "slick": "^1.12.2",
     "styled-components": "^4.2.0",
-    "swiper": "^4.3.3"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
